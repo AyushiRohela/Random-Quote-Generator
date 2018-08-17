@@ -1,0 +1,50 @@
+body{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(124deg, #fea3aa, #f8b88b, #faf884, #baed91, #b2cefe, #f2a2e8);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease-in-out infinite;
+-z-animation: rainbow 25s ease-in-out infinite;
+-o-animation: rainbow 25s ease-in-out infinite;
+  animation: rainbow 25s ease-in-out infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+}
+h1{
+  font-size: 3em;
+}
+#quoteDisplay{
+  padding-top: 20px;
+  font-size: 25px;
+}
+button{
+  font-size: 1.5em;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-family: 'Amatic SC', cursive;
+  box-shadow: 2px 2px grey;
+  position: absolute;
+  top: 200px;
+  left: 47%;
+}
